@@ -1,0 +1,246 @@
+body {
+font-family: Arial;
+background-color:grey;
+}
+
+body p{
+	font-size:20px;
+}
+
+
+.navbar{
+font-family: Arial;
+
+}
+
+.navbar h1{
+margin-top:15px;
+font-size:80px;
+color: black;
+position:absolute;
+left:15%;
+
+}
+.navbar p {
+margin-left: auto;
+margin-right: auto;
+position:absolute; 
+top:10px;
+left:60%;
+font-size:20px;
+	
+	
+}
+
+.navbar ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position:absolute;
+	top:150px;
+	left:10%;
+	
+}
+
+.navbar li{
+	float:left;
+	border: 3px solid;
+	width:auto;
+	padding-left:50px;
+	padding-right:50px;
+	background-color:#FF1500;
+}
+
+.navbar li:hover {
+	background-color:#9F1500;}
+	
+
+.navbar a{
+	text-decoration:none;
+	padding: 15px 40px;
+	text-align:center;
+	font-size:30px;
+	color:black;
+	font-weight:bold;
+}
+
+.mainContent{
+overflow:auto;
+position:absolute;
+top:200px;
+width:90%;
+margin-left:5%;
+margin-right:5%;
+height:900px;
+background-color:white;
+}
+
+.history{
+width:50%;
+float:left;
+padding:50px;
+}
+
+}
+.dealership{
+	float:right;
+	width:40%;
+}
+.dealership img{
+	padding-top:20px;
+	padding-left:50px;
+}
+
+.special1{
+	position:absolute;
+	left:200px;
+	bottom:200px;
+}
+
+.special2{
+	position:absolute;
+	text-align:center;
+	left:500px;
+	bottom:200px;
+}
+
+.staff img{
+	position:absolute;
+	right:10%;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+
+.InvTable td{
+	padding:30px;
+	font-size:16px;
+	
+}
+
+.InvTable img{
+  border-radius: 5px;
+}
+
+.InvTable img:hover {opacity: 0.7;}
+
+
+.loanLinks {
+	position:absolute;
+	top:50px;
+	left:30px;
+	font-size:20px;
+}
+
+.loanLinks li{
+	list-style-type:none;
+	padding:20px;
+
+}
+.loanLinks a{
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;	
+	color:red;
+}
+.loanLinks a:hover{
+	color:blue;
+	text-decoration:underline;
+}
+	
+
+.loanLinks h2{
+	padding-left:40px;
+	font-weight:bold;	
+}
+
+
+
+
+.Loan{
+	position:absolute;
+	left:700px;
+	top:50px;
+	font-size:20px;
+	font-weight:bold;
+		
+}
+.Loan input{
+	font-size:20px;
+	font-weight:bold;
+	position:absolute;
+	left:250px;
+}
+
+.Loan button{
+	font-size:20px;
+	font-weight:bold;
+	text-align:center;
+	margin-left:30px;
+	position:relative;
+	left:150px;
+}
+
+.Contact{
+	font-size:20px;
+	font-weight:bold;
+	padding:20px;
+	position:absolute;
+	left:50px;
+	top:50px;
+}
+.Contact input{
+	font-size:15px;
+	font-weight:bold;
+	position:absolute;
+	left:250px;
+	width:250px;
+	height:20px;
+}
+	
+#state{
+	width:40px;
+}
+
+.Contact textarea{
+	position:absolute;
+	left:250px;
+}
+
+.Contact button{
+	font-size:20px;
+	font-weight:bold;
+	position:relative;
+	left:310px;
+	top:130px;
+}
+
+.sendEmail{
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:30em;
+}
+
+.emailLinks{
+	font-size:20px;
+	font-weight:bold;
+	position:absolute;
+	left:900px;
+	top:50px;
+}
+.emailLinks p{
+	font-size:19px;	
+}
+.emailLinks a{
+	font-size:19px;
+	text-decoration:none;	
+}
+
+.emailLinks a:hover{
+	color:red;
+}
+	
+	
+	
